@@ -248,7 +248,14 @@ section {
 
 
 /* Contact*/
-
+#contactform {}
+.form-control {
+  width: 100%;
+}
+.form-group {}
+#name {}
+#email {}
+#message-box {}
 
 /*FAQ*/
 
