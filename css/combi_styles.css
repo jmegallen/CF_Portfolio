@@ -225,9 +225,13 @@ section {
 
 /*Index*/
 
-
 #projects div {
     padding: 2em;
+}
+.btn-default {
+    color: #282C66;
+    background-color: #fff;
+    border-color: #ccc;
 }
 
 /*PicGrid*/
@@ -263,7 +267,6 @@ section {
 }
 
 /*FAQ*/
-
 .panel-body {
   margin: 2em;
   padding: 2em;
@@ -275,14 +278,29 @@ section {
 }
 
 
-/*modal
+/*modal*/
   
-  text-align: right;*/
-
-
+.asktexthead {
+  text-align: center;
+  float: left;
+  margin: 1.5em 1em 1em 4em;
+}
 #cvbut {
-  float: bottom;
-  padding: 15px;
+  float: right;
+  margin: 8em 6em 6em 3em;
+  color: #282C66;
+  background-color: #fff;
+  border-color: #ccc;
+  padding: 1em;
+  font-weight:400;
+}
+#jmecv {
+  min-height: 35em;
+  width: 100%;
+  padding: 2em;
+}
+.modal-body {
+
 }
 
 
