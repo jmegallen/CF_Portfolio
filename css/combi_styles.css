@@ -113,7 +113,8 @@ section {
   background: transparent;
 }
 #video {
-  background: transparent;
+  background-image: url("../img/snow3.jpg");
+  background-attachment: fixed;
 }
 #about {
   background-image: url("../img/ski.png");
