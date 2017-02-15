@@ -303,8 +303,13 @@ section {
 
 }
 
+/*tooltips*/
 
-
+#linktooltip {
+  font-size: inherit;
+  background-color: #282C66;
+  color:white;
+}
 
 
 
