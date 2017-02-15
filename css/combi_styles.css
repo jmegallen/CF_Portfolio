@@ -284,16 +284,15 @@ section {
 .asktexthead {
   text-align: center;
   float: left;
-  margin: 1.5em 1em 1em 4em;
+  max-width: 100%;
+  margin: 1em 2em 1em 1em;
 }
 #cvbut {
-  float: right;
-  margin: 8em 6em 6em 3em;
+  margin: 5em 2em 1em 10em;
   color: #282C66;
   background-color: #fff;
   border-color: #ccc;
   padding: 1em;
-  font-weight:400;
 }
 #jmecv {
   min-height: 35em;
