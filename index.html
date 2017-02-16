@@ -7,11 +7,15 @@
   <title>Jamie Gallen Web Developer</title><!-- Bootstrap core CSS -->
   <link href="https://fonts.googleapis.com/css?family=Lora:700|Rubik" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/combi_styles.css" rel="stylesheet"><!-- TwitterButtonJS -->
+  <link href="css/combi_styles.css" rel="stylesheet">
+
+  <!-- TwitterButtonJS -->
 
   <script>
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-  </script><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  </script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -107,11 +111,11 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4">
         <h2>Portfolio Concept</h2>
-        <p><strong>A Web <a href="#" title="Jamie's Web Playground" data-toggle="tooltip" id="linktooltip" data-placement="right"> Playground</a> that allows me to develop my front end skills.</strong> A place for me to test combining my <strong>SQL</strong> with websites and dashboards. Having worked in <strong>ecommerce</strong> for the last few years, I have good understanding of the impact of a stable and simple website. I also have worked as an <strong>analyst</strong> in various areas, from social media to sql price queries, algorithms and reports.</p>
+        <p><strong>A Web <a href="#" title="Jamie's Web Playground" data-toggle="tooltip" data-placement="right" class="linktooltip"> Playground</a> that allows me to develop my front end skills.</strong> A place for me to test combining my <strong>SQL</strong> with websites and dashboards. Having worked in <strong>ecommerce</strong> for the last few years, I have good understanding of the impact of a stable and simple website. I also have worked as an <strong>analyst</strong> in various areas, from social media to sql price queries, algorithms and reports.</p>
 
         <!-- Single dropdown button -->
         <div class="btn-group">
-          <button id="droptoolbut" aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button" data-placement="top" title="Tooltip on top">Current Projects <span class="caret"></span></button>
+          <button id="droptoolbut" aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-toggle="tooltip" type="button" data-placement="top" title="Come see what I've made">Current Projects <span class="caret"></span></button>
           <ul class="dropdown-menu">
             <li>
               <a href="http://disparatecalc.bitballoon.com/" target="_blank" title="Twitter">Disparate Calculator</a>
@@ -137,11 +141,13 @@
       </div><!-- /col -->
       <div class="col-xs-12 col-sm-6 col-md-4">
         <h2>Project Goals</h2>
-        <p><strong>I want polish my HTML and CSS, while improving my JavaScript.</strong> I’m also looking forward to my first taste of <strong>Rails</strong> . I have a few projects I’d like to complete, including a <strong><a href="http://bingocards-1-1.bitballoon.com/" title="Rock and Roll" data-placement="left" id="linktooltip">bingo card generator</a></strong> and a more complex version of <strong>paper, scissors, stone</strong>. Ideally I'd like finish a web page a day? I'm not currently working, so I have a lot of time to work on the projects. However I'm away twice in <strong>December</strong> so there may be few issues for the first few weeks.</p>
+        <p><strong>I want polish my HTML and CSS, while improving my JavaScript.</strong> I’m also looking forward to my first taste of <strong>Rails</strong> . I have a few projects I’d like to complete, including a <strong><a href="http://bingocards-1-1.bitballoon.com/" title="Rock and Roll" data-placement="left" data-toggle="tooltip" class="linktooltip">bingo card generator</a></strong> and a more complex version of <strong>paper, scissors, stone</strong>. Ideally I'd like finish a web page a day? I'm not currently working, so I have a lot of time to work on the projects. However I'm away twice in <strong>December</strong> so there may be few issues for the first few weeks.</p>
+        <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More info">View details &raquo;</button></p>
       </div><!-- /col -->
       <div class="col-xs-12 col-sm-6 col-md-4">
         <h2>Course Goals</h2>
-        <p><strong>My target is to be a <a href="https://www.linkedin.com/in/jamie-gallen-57615410/" title="Contact me on Linkedin" data-placement="top" id="linktooltip">freelance</a> professional no longer tied to one location, so I can travel and work around the world with my family.</strong> Ideally I would like to start taking on <strong>small freelance projects</strong> in the new year, while I finish the course. After the course I would be open to taking a <strong>junior position</strong> to improve my experience. My end game would be to take my development further either in apps or backend.</p>
+        <p><strong>My target is to be a <a href="https://www.linkedin.com/in/jamie-gallen-57615410/" title="Contact me on Linkedin" data-placement="top" data-toggle="tooltip" class="linktooltip">freelance</a> professional no longer tied to one location, so I can travel and work around the world with my family.</strong> Ideally I would like to start taking on <strong>small freelance projects</strong> in the new year, while I finish the course. After the course I would be open to taking a <strong>junior position</strong> to improve my experience. My end game would be to take my development further either in apps or backend.</p>
+        <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More info">View details &raquo;</button></p>
       </div><!-- /col -->
     </div><!-- /row -->
   </section><!-- /container Projects-->
@@ -158,7 +164,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4"><img alt="Berlin Snowscape" class="img-responsive" src="img/snow2.jpg"></div>
     </div><!-- /row -->
   </section><!-- /container picgrid -->
-  <section class="container-fluid cover" id="video" data-stellar-background-ratio="0.5">
+  <section class="container-fluid cover" id="video" data-stellar-background-ratio="2" data-stellar-offset-parent="true" data-stellar-horizontal-offset="40" data-stellar-vertical-offset="150">
     <div class="row">
       <div class="texthead">
         <h1>Video Bar</h1>
@@ -210,8 +216,8 @@
     <div class="row ninety">
       <div>
         <h2>Humblebrag pickled hammock coloring book, trust fund kombucha migas polaroid VHS.</h2>
-        <p>Humblebrag pickled hammock coloring book, trust fund kombucha migas polaroid VHS. Literally ethical chambray pickled truffaut<a href="http://www.independent.co.uk/life-style/food-and-drink/features/get-into-a-real-pickle-how-to-make-delicious-and-guilt-free-homemade-preserves-1707757.html" title="More information" id="linktooltip"> intelligentsia</a>. Locavore crucifix glossier mixtape tumeric swag gochujang. You probably haven't heard of them tofu skateboard, hell of paleo bespoke brunch organic kitsch direct trade gochujang crucifix seitan vexillologist art party. Ugh chillwave vinyl meh. Next level brunch gentrify health goth, art party farm-to-table 8-bit VHS humblebrag hella celiac activated charcoal pickled helvetica. Keffiyeh gochujang ugh neutra VHS.</p>
-        <p>Humblebrag <a href="http://www.independent.co.uk/life-style/food-and-drink/features/get-into-a-real-pickle-how-to-make-delicious-and-guilt-free-homemade-preserves-1707757.html" title="More information" id="linktooltip"> pickled</a> hammock coloring book, trust fund kombucha migas polaroid VHS. Literally ethical chambray pickled truffaut intelligentsia. Locavore crucifix glossier mixtape tumeric swag gochujang. You probably haven't heard of them tofu skateboard, hell of paleo bespoke brunch organic kitsch direct trade gochujang crucifix seitan vexillologist art party. Ugh chillwave vinyl meh. Next level brunch gentrify health goth, art party farm-to-table 8-bit VHS humblebrag hella celiac activated charcoal pickled helvetica. Keffiyeh gochujang ugh neutra VHS.</p>
+        <p>Humblebrag pickled hammock coloring book, trust fund kombucha migas polaroid VHS. Literally ethical chambray pickled truffaut<a href="http://www.independent.co.uk/life-style/food-and-drink/features/get-into-a-real-pickle-how-to-make-delicious-and-guilt-free-homemade-preserves-1707757.html" title="More information" data-placement="top" data-toggle="tooltip" data-animation="true" class="linktooltip"> intelligentsia</a>. Locavore crucifix glossier mixtape tumeric swag gochujang. You probably haven't heard of them tofu skateboard, hell of paleo bespoke brunch organic kitsch direct trade gochujang crucifix seitan vexillologist art party. Ugh chillwave vinyl meh. Next level brunch gentrify health goth, art party farm-to-table 8-bit VHS humblebrag hella celiac activated charcoal pickled helvetica. Keffiyeh gochujang ugh neutra VHS.</p>
+        <p>Humblebrag <a href="http://www.independent.co.uk/life-style/food-and-drink/features/get-into-a-real-pickle-how-to-make-delicious-and-guilt-free-homemade-preserves-1707757.html" title="More information" data-placement="top" data-toggle="tooltip" data-animation="true" class="linktooltip"> pickled</a> hammock coloring book, trust fund kombucha migas polaroid VHS. Literally ethical chambray pickled truffaut intelligentsia. Locavore crucifix glossier mixtape tumeric swag gochujang. You probably haven't heard of them tofu skateboard, hell of paleo bespoke brunch organic kitsch direct trade gochujang crucifix seitan vexillologist art party. Ugh chillwave vinyl meh. Next level brunch gentrify health goth, art party farm-to-table 8-bit VHS humblebrag hella celiac activated charcoal pickled helvetica. Keffiyeh gochujang ugh neutra VHS.</p>
       </div>
     </div><!-- ninety -->
   </section><!-- about -->
@@ -335,24 +341,37 @@
   <!-- All your JavaScript comes now -->
   <!-- ============================= -->
   <!-- jQuery must be before bootstrap.js -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-  </script> <!-- Bootstrap core JS -->
+  </script> 
+  <!-- Bootstrap core JS -->
    
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
-  </script> <!-- Can place script tags with JavaScript files here -->
-  <script src="js/jquery.stellar.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  </script> 
+  <!-- Can place script tags with JavaScript files here -->
+
   <script type="text/javascript">
-    $('#video').stellar();
-  </script>
-  <script>
   $(function () {
-   $("#[linktooltip]").tooltip();
-  });
-  </script>
-  <script>
-  $(function () {
-   $('#[droptoolbut]').tooltip();
+      $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
+  <script type="text/javascript">
+  $(function () {
+      $('#droptoolbut').tooltip();
+    });
+  </script>
+
+
+  
+  <script src="js/jquery.stellar.min.js"></script>
+  <script type="text/javascript">
+  $('#video').stellar();
+  </script>
+
+
+
+
+
+  
 </body>
 </html>
