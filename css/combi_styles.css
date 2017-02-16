@@ -315,11 +315,11 @@ section {
   section {
     min-width: 1570px;
     min-height: 680px;
-}
-.glyphicon-menu-hamburger {
-    font-size: 5em;
-}
-body, p, a { 
-  font-size: 2em;
-}
+  }
+  .glyphicon-menu-hamburger {
+      font-size: 5em;
+  }
+  body, p, a { 
+    font-size: 2em;
+  }
 }
