@@ -72,15 +72,13 @@ section {
   clear: both;
   margin: auto;
 }
-.hundred {}
 .row {
   margin-bottom: 5em;
 }
-.container {}
-.container-fluid {}
 .col-md-4 {
-  padding: 0em;
+  padding: 0;
 }
+
 /*Headers*/
 
 .pichead {
@@ -102,41 +100,34 @@ section {
   background-size: cover;
   background-position: top;
   opacity: 0.9;
-}
-#home {
-  background: transparent;
-}
-#project {
-  background: transparent;
-}
-#picgrid {
   background: transparent;
 }
 #video {
   background-image: url("../img/snow3.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 #about {
   background-image: url("../img/ski.png");
-  z-index: -100;
 }
 .pichead {
   background-image: url("../img/ontyback3.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   height: 15em;
 }
 .picprofile {
   background-image: url("../img/jme2.jpg");
   background-size: contain;
-  background-repeat: no-repeat;
   height: 25em;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #contact {
   background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/snow9.jpg");
   background-attachment: fixed;
   background-position: bottom;
-  z-index: -100;
 }
 #faq {
   background-image: url("../img/snow8.jpg");
@@ -154,7 +145,7 @@ section {
 .navbar li a {
   padding-right: 1.5em;
   padding-left: 1.5em;
-  font-weight: 600px;
+  font-weight: 600;
 }
 .navbar li a:hover, a:focus, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   color: white;
@@ -183,8 +174,8 @@ section {
   background-color: #0B0F40;
 }
 .navbar-brand h4 {
-  margin: 0em;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
 }
 
 /*Carousel*/
@@ -206,23 +197,14 @@ section {
   z-index: 1;
 }
 .carousel-control {
-  margin: 0px;
+  margin: 0;
   z-index: 1;
 }
 .carousel:hover .carousel-control {
-  margin: 0px;
+  margin: 0;
   background-color: transparent;
 }
 
-/*
-.carousel-caption.altpictext h2 {
-  color: #EDCF5C;
-  text-shadow: 1px 1px 1px #4149B2;
-}
-.carousel-caption.altpictext p {
-  color: #EDCF5C;
-  text-shadow: 1px 1px 1px #4149B2;
-}
 
 /*Index*/
 
@@ -241,7 +223,7 @@ section {
 /* Video*/
 
 .bs-example {
-  padding: 0em;
+  padding: 0;
   max-width: 100%;
   margin-bottom: 15em;
 }
@@ -299,9 +281,6 @@ section {
   width: 100%;
   padding: 2em;
 }
-.modal-body {
-
-}
 
 /*tooltips*/
 
@@ -310,8 +289,6 @@ section {
   background-color: #282C66;
   color:white;
 }
-
-
 
 /*footer*/
 
@@ -332,7 +309,7 @@ section {
   padding-left: 2em;
 }
 
-/*Media-Q's
+/*Media-Q's*/
 
 @media (min-width: 1600px){
   section {
@@ -346,19 +323,3 @@ body, p, a {
   font-size: 2em;
 }
 }
-@media (max-width: 768px){
-  section {
-    min-height: 548px;
-}
-}
-@media (max-width: 1024px){
-  section {
-    min-height: 548px;
-}
-}
-@media (min-width: 1024px){
-  section {
-    min-height: 548px;
-}
-}
-*/
