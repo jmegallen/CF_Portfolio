@@ -299,12 +299,12 @@ section {
   opacity: 0.7;
   margin-top: 2em;
 }
-.footer img {
+.footerright img {
   float: right;
   max-width: 2em;
   margin: 0 1em;
 }
-.footer p, .footer div {
+.footerleft {
   float: left;
   padding-left: 2em;
 }

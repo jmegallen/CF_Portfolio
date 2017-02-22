@@ -16,6 +16,7 @@
     <![endif]-->
 </head>
 <body data-offset="50" data-spy="scroll" data-target=".navbar">
+
   <!--navbar starts here-->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -236,6 +237,7 @@
           <h3>Email address</h3><label for="name"></label> <input id="emailinput" placeholder="Your email.." required="required" type="email" class="form-control">
           <h3>Message</h3><label for="message"></label> 
           <textarea class="form-control" cols="25" id="message-box" placeholder="Your message here...." rows="5" style="resize:none"></textarea>
+          <p id="visible-comment">Thanks for the interest....</p>
         </div>
         <div class="form-group">
           <h3>File input</h3><label for="exampleInputFile"></label> <input id="exampleInputFile" type="file">
@@ -313,22 +315,23 @@
       </div>
     </div>
   </div> 
-    
-
 
   <footer>
     <div class="conatiner-fluid footer" id="social">
-      <div>
+      <div class="footerleft">
         <p>&copy; Ontyhtung 2017</p>
       </div>
-      <div>
-        <iframe frameborder="0" height="65" scrolling="no" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=63&layout=button&action=like&size=large&show_faces=true&share=false&height=65&appId" style="border:none;overflow:hidden" width="63"></iframe>
+      <div class="footerleft">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fjmegallen&width=60&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="60" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
-      <div>
-        <a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/SchurkeinBerlin">Follow @SchurkeinBerlin</a> 
-        <script async charset="utf-8" src="//platform.twitter.com/widgets.js">
-        </script>
-      </div><a href="https://www.facebook.com/jmegallen" target="_blank" title="Facebook"><img alt="Facebook" src="img/social.png"></a> <a href="https://www.twitter.com/SchurkeinBerlin" target="_blank" title="Twitter"><img alt="Twitter" src="img/social-media-1.png"></a> <a href="https://plus.google.com/+JamieGallen" target="_blank" title="Google"><img alt="Google" src="img/social-media-2.png"></a>
+      <div class="footerleft">
+        <a href="https://twitter.com/SchurkeinBerlin" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @SchurkeinBerlin</a>
+      </div>
+      <div class="footerright">
+        <a href="https://www.facebook.com/jmegallen" target="_blank" title="Facebook"><img alt="Facebook" src="img/social.png"></a> 
+        <a href="https://www.twitter.com/SchurkeinBerlin" target="_blank" title="Twitter"><img alt="Twitter" src="img/social-media-1.png"></a> 
+        <a href="https://plus.google.com/+JamieGallen" target="_blank" title="Google"><img alt="Google" src="img/social-media-2.png"></a>
+      </div>
     </div>
   </footer><!-- footer -->
   <!-- ============================= -->
@@ -346,7 +349,7 @@
 
   <script src="js/jmescripts.js">
   </script>
-  
+
   <script src="js/jquery.stellar.min.js"></script>
 
   
