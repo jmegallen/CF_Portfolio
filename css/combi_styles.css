@@ -248,6 +248,9 @@ section {
   color: #282C66;
   margin-top: 2em;
 }
+#visible-comment {
+  display: none;
+}
 
 /*FAQ*/
 .panel-body {

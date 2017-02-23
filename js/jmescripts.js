@@ -34,10 +34,21 @@ $(document).ready(function() {
 	//Event Listen
 	$('#subbut').on('click', function() {
 		// now we're going to work in here
-		var comment = $('#message-box').val();
-		$('#visible-comment').html(comment);
+		var myComment = $('#message-box').val();
+		$('#visible-comment').html('Thanks for the interest..    ' + myComment);
+		$('#visible-comment').css('display', 'block');
+		$('#char_count').css('display', 'none');
 		$('#message-box').hide("slow");
-		console.log(comment);
+		console.log(myComment);
 		return false;
 	});
+	//Message Box Count
+	var text_max = 200;
+	$('#char_count').html('Remaining ' + text_max);
+	$('#message-box').keyup(function() {
+  var text_length = $('#message-box').val().length;
+  var text_remaining = text_max - text_length;
+  $('#char_count').html('Remaining ' + text_remaining);
+	});
+
 }); 
