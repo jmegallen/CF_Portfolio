@@ -50,5 +50,11 @@ $(document).ready(function() {
   var text_remaining = text_max - text_length;
   $('#char_count').html('Remaining ' + text_remaining);
 	});
-
+	if(text_length > 50) {
+  $("#message-box").css("color", "blue");
+	} 
+	else {
+	$("#message-box").css("color", "red");
+	};
+  
 }); 
