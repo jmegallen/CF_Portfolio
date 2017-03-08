@@ -46,15 +46,17 @@ $(document).ready(function() {
 	var text_max = 200;
 	$('#char_count').html('Remaining ' + text_max);
 	$('#message-box').keyup(function() {
-  var text_length = $('#message-box').val().length;
-  var text_remaining = text_max - text_length;
-  $('#char_count').html('Remaining ' + text_remaining);
-	});
-	if(text_length > 50) {
-  $("#message-box").css("color", "blue");
-	} 
-	else {
-	$("#message-box").css("color", "red");
+		var text_length = $('#message-box').val().length;
+		var text_remaining = text_max - text_length;
+		$('#char_count').html('Remaining ' + text_remaining);
+	});	
+		var text_length = $('#message-box').val().length;
+		if(text_length < 50) {
+	  $('#message-box').css('color', 'red');
+	  $('#message-box').css('background-color', 'grey');
+		} 
+		else {
+		$('#message-box').css('color', 'blue');
+		$('#message-box').css('background-color', 'white');
 	};
-  
-}); 
+});
