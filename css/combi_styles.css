@@ -251,6 +251,9 @@ section {
 #visible-comment {
   display: none;
 }
+#message-box {
+  background-color: #e6e6e6;
+}
 
 /*FAQ*/
 .panel-body {

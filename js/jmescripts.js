@@ -43,20 +43,16 @@ $(document).ready(function() {
 		return false;
 	});
 	//Message Box Count
-	var text_max = 200;
-	$('#char_count').html('Remaining ' + text_max);
-	$('#message-box').keyup(function() {
-		var text_length = $('#message-box').val().length;
-		var text_remaining = text_max - text_length;
-		$('#char_count').html('Remaining ' + text_remaining);
-	});	
-		var text_length = $('#message-box').val().length;
-		if(text_length < 50) {
-	  $('#message-box').css('color', 'red');
-	  $('#message-box').css('background-color', 'grey');
-		} 
-		else {
-		$('#message-box').css('color', 'blue');
-		$('#message-box').css('background-color', 'white');
-	};
+	$("#message-box").on("keyup", function() {
+		
+		var charCount = $("#message-box").val().length;
+		$("#char_count").html(charCount);
+		if (charCount < 50) {
+			$("#char_count").css("color", "red");
+			$('#message-box').css('background-color', '#e6e6e6');
+		} else {
+			$("#char_count").css("color", "black");
+			$('#message-box').css('background-color', 'white');
+		}
+	});
 });
