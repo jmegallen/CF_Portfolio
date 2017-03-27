@@ -254,6 +254,9 @@ section {
 #message-box {
   background-color: #e6e6e6;
 }
+#char_count {
+  font-size: 1.75em;
+}
 
 /*FAQ*/
 .panel-body {
