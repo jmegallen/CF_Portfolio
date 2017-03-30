@@ -314,6 +314,7 @@ section {
   font-weight:700;
   letter-spacing:0.5em;
   line-height:1.6;
+  display: none;
 }
 .proj-title {
   font-weight:100;

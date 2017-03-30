@@ -10,7 +10,6 @@
   }
 }(document, 'script', 'twitter-wjs');
 
-
 //AfterDOM
 $(document).ready(function() {
   // Tooltips
@@ -33,6 +32,7 @@ $(document).ready(function() {
     });
     return false;
   });
+
   //Event Listen
   $('#subbut').on('click', function() {
     // now we're going to work in here
@@ -45,6 +45,7 @@ $(document).ready(function() {
     console.log(myComment);
     return false;
   });
+  
   //Message Box Count
   $("#message-box").on("keyup", function() {
     var charCount = $("#message-box").val().length;
