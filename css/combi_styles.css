@@ -321,10 +321,9 @@ section {
 
 /*Map*/
 
-#Map {
+#map {
   height: 20em;
-  width: 100%;
-  border: 2px red;
+  width: 40em;
 }
 
 /*footer*/

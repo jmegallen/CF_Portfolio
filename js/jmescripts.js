@@ -9,6 +9,8 @@
     fjs.parentNode.insertBefore(js, fjs);
   }
 }(document, 'script', 'twitter-wjs');
+
+
 //AfterDOM
 $(document).ready(function() {
   // Tooltips
@@ -55,4 +57,5 @@ $(document).ready(function() {
       $('#message-box').css('background-color', 'white');
     }
   });
+  
 });
