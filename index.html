@@ -223,6 +223,7 @@
         <h3>Gottlieb-Dunkel-Straße 199</h3>
         <h3>12099 Berlin</h3>
         <h3>Germany</h3>
+        <div id="map"></div>
       </div>
       <form class="col-xs-12 col-md-6">
         <div class="form-group" id="contactform">
@@ -343,6 +344,7 @@
   </script> 
   <!-- Can place script tags with JavaScript files here -->
 
+  
   <script src="js/picgrid.js">
   </script>
 
@@ -350,6 +352,23 @@
   </script>
 
   <script src="js/jquery.stellar.min.js"></script>
+
+  <script src="js/GMap.js">
+  </script>
+  <script type="text/javascript">
+    var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+  </script>
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjLvI9uKLfOe8ZFfApaymxaVnbWHlLJ24&callback=initMap">
+  </script>
+
 
   
 </body>
